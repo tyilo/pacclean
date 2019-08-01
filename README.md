@@ -17,3 +17,8 @@ pacman -Syu boost g++ make
 ## Building
 
 Just run `make` and the `pacclean` binary should appear.
+
+## TODO
+
+- Figure out what to do, when a package depends one another package, that more than one installed package provide.
+  Currently we just treat all of those packages as dependencies.
