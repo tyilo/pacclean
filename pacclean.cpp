@@ -2,7 +2,6 @@
 #include <bits/stdc++.h>
 #include <boost/graph/adjacency_list.hpp>
 #include <boost/graph/strong_components.hpp>
-#include <boost/graph/topological_sort.hpp>
 #include <boost/program_options.hpp>
 
 namespace po = boost::program_options;
