@@ -1,5 +1,7 @@
 # pacclean
 
+**Note:** You should probably just install [yay](https://github.com/Jguer/yay) and run `yay -Yc` instead.
+
 Tired of running `pacman -R $(pacman -Qdtq)` ten times to remove all your unused packages installed just as dependencies?
 Want a `pacman -Qdt` that can detect dependency cycles that are not needed?
 
